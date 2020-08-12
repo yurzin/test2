@@ -1,0 +1,80 @@
+.Sensor {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.Portrait {
+    margin: 0 auto 103px;
+    width: 960px;
+    height: 408px;
+}
+
+.Description {
+    display: flex;
+    margin: 0 auto 103px;
+    width: 960px;
+    height: 619px;
+    justify-content: space-around;
+}
+
+.Left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 390px;
+    height: 619px;
+    background: linear-gradient(#8CB928, #45AE4D);
+    border-radius: 18px;
+}
+
+.Left:hover {
+    cursor: pointer;
+}
+
+.Right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 390px;
+    height: 619px;
+    background: linear-gradient(#8CB928, #45AE4D);
+    border-radius: 18px;
+}
+
+.Right:hover {
+    cursor: pointer;
+}
+
+.Left > img {
+    width: auto;
+    height: 458px;
+}
+
+.Right > img {
+    width: auto;
+    height: 458px;
+}
+
+.Acquire {
+    margin: 0 auto;
+    width: 963px;
+    height: 358px;
+}
+
+.Acquire h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    display: block;
+    text-align: center;
+    width: 963px;
+    height: 55px;
+}
+
+.block {
+    display: block;
+    float: left;
+    margin: 13px;
+    width: 213px;
+    height: 214px;
+    border-radius: 18px;
+    background: #45AE4D;
+}
